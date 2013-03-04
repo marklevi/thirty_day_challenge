@@ -19,8 +19,8 @@ ex3.4
 1) 
 
 def do_twice(f):
-	(f)
-	(f)
+	f()
+	f()
 
 def print_spam():
 	print 'spam'
