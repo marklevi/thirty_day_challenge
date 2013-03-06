@@ -32,31 +32,22 @@ answer is 523.3
 
 2)
 
- $24.95  Cost
-  $9.98  Discount / book
- $14.97  Cost / book after discount
-  60     Total number of books
-$898.20  Total cost excluding shipment 
+# $24.95  Cost
+#  $9.98  Discount / book
+# $14.97  Cost / book after discount
+#  60     Total number of books
+#$898.20  Total cost excluding shipment 
 
-  $3.00  First book shipment fee
-  $0.75  Additional book shipment fee
- $44.25  Total shipping cost for each of the remaining 59 books
- $47.25  Total shipping cost
-    
+# $3.00  First book shipment fee
+#  $0.75  Additional book shipment fee
+# $44.25  Total shipping cost for each of the remaining 59 books
+# $47.25  Total shipping cost
+ ------------------------------------   
 4.95*0.6*60+0.75*59+3
 
 $945.45  Total Bill
 
 3) 
-
-start = ((6*60)+52)*60
-easy = ((8*60)+15)*2
-fast = (((7*60)+12)*3)
-finishhour = (start + easy + fast)/(60*60)
-finishminute  = ((start + easy + fast)/(60*60.0) - finishhour) * 60
-
-
-Finish time was 7:30
 
 start = 6 * 60.0 + 52.0
 easy = 2 * 8.15
